@@ -23,14 +23,14 @@ namespace Assets.Chars.Key
             {
                 if (transform.eulerAngles.x < intended)
                 {
-                    transform.Rotate(5, 0, 0);
+                    transform.Rotate(10, 0, 0);
                 }
             }
             else
             {
                 if (transform.eulerAngles.x > intended)
                 {
-                    transform.Rotate(-5 , 0, 0);
+                    transform.Rotate(-10 , 0, 0);
                 }
             }
             

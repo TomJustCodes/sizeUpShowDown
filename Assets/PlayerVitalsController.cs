@@ -32,7 +32,7 @@ namespace Assets
             Debug.LogError("qwwqe" + GetComponent<PlayerAttackController>().blocking.ToString());
             if (GetComponent<PlayerAttackController>().blocking == false)
             {
-                rb.AddForce(new Vector3(direction.x, 0, direction.z).normalized * ammount * 4 * (1 + (percent / 50)));
+                rb.AddForce(new Vector3(direction.x, 0, direction.z).normalized * ammount * 5 * (1 + (percent / 50)));
                 percent += (ammount / 100);
                 tmp.text = percent + "%";
                 
